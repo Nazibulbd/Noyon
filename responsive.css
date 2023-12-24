@@ -7,7 +7,7 @@
 }
 
 
-.menu_bar {
+.inner_header .menu_bar {
     display: inline-block;
 }
 
@@ -47,11 +47,6 @@
     justify-content: center;
     
 }
-.inner_about .contact_info li {
-}
-
-
-
 
 .inner_service .service_box {
     flex-basis: 49%;
@@ -134,11 +129,11 @@
 }
 
 @media screen and (max-width:  350px) {
-    nav{
-        display: none;
-    }
     .menu_bar {
         display: inline-block;
+    }
+    nav{
+        display: none;
     }
     .inner_about .personal_info{
         flex-basis: 100%;
